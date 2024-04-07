@@ -20,4 +20,8 @@ All the C code is designed to run on a Unix environment, particularly Linux. It 
     ```bash
     ./exe
      ```
+Or if there is a Makefile, you can simple do 
+    ```bash
+    ./makefile
+    ```
 This project is licensed under the [WTFPL](https://choosealicense.com/licenses/wtfpl/) license. P.S: All code may not work. 
