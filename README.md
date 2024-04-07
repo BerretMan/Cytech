@@ -8,6 +8,11 @@ This repository contains all the projects I've developed thus far.
 All the C code is designed to run on a Unix environment, particularly Linux. It utilizes only the C standard library.
 
 ### Steps for Installation:
+0. If there is a Makefile, you can simple do 
+    ```bash
+    ./exe
+     ```
+If there isn't, follow these steps: 
 1. Clone this repository to your local machine.
    ```bash
    git clone https://github.com/BerretMan/Cytech
@@ -20,8 +25,4 @@ All the C code is designed to run on a Unix environment, particularly Linux. It 
     ```bash
     ./exe
      ```
-Or if there is a Makefile, you can simple do 
-    ```bash
-    ./makefile
-    ```
 This project is licensed under the [WTFPL](https://choosealicense.com/licenses/wtfpl/) license. P.S: All code may not work. 
