@@ -20,4 +20,4 @@ All the C code is designed to run on a Unix environment, particularly Linux. It 
     ```bash
     ./exe
      ```
-This project is licensed under the WTFPL license. P.S: All code may not work. 
+This project is licensed under the [WTFPL](https://choosealicense.com/licenses/wtfpl/) license. P.S: All code may not work. 
