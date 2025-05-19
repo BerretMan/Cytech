@@ -1,0 +1,44 @@
+section.cv {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50%;
+    margin-bottom: 0;
+    background-color: rgb(169, 151, 131);
+}
+
+
+
+header {
+    background-color: rgb(74, 146, 193);
+}
+
+header * {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p,h1,h2{
+    color: white;
+}
+
+
+
+li {
+    margin-left: 20px;
+	list-style: square;
+    color:white;
+}
+
+li::marker {
+    font-size: 1.5em;
+}
+
+i {
+    font-size: 5em;
+}
+
+ul img {
+    width: 5em;
+}

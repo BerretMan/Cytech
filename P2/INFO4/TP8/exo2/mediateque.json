@@ -1,0 +1,32 @@
+[
+    {
+        "titre": "Jurassic Park",
+        "realisateur": "Steven Spielberg",
+        "annee de realisation": 1993,
+        "duree": 128
+    },
+    {
+        "titre": "Harry Potter",
+        "realisateur": "Chris Colombus",
+        "annee de realisation": 2001,
+        "duree": 159
+    },
+    {
+        "titre": "Le Seigneur des anneaux",
+        "realisateur": "Peter Jackson",
+        "annee de realisation": 2001,
+        "duree": 228
+    },
+    {
+        "titre": "Star Wars",
+        "realisateur": "Georges Lucas",
+        "annee de realisation": 1977,
+        "duree": 125
+    },
+    {
+        "realisateur": "Kevin",
+        "annee de realisation": "2024",
+        "titre": "L'aventure de kevin",
+        "duree": "180"
+    }
+]

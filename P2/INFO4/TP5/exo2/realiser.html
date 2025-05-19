@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+</head>
+<body>
+    <h1>Ma pizza</h1>
+
+    <form id="form" action="commander.html">
+        <p>La pâte</p> 
+        <select name="pate">
+            <option value="napolitaine">Napolitaine</option>
+            <option value="sans_pate">Sans pâte</option>
+        </select><br>
+        <p>sauce</p> 
+        <select name="sauce">
+            <option value="tomate">tomate</option>
+            <option value="mayonnaise">mayonnaise</option>
+            <option value="blanche">blanche</option>
+            <option value="barbecue">barbecue</option>
+        </select><br>
+        <p>Ingrédient 1</p>
+        <select name="ingredient1" id="mySelect" size="4">
+            <option value="jambon">Jambon</option>
+            <option value="poulet">Poulet</option>
+            <option value="saucisson">saucisson</option>
+            <option value="ananas">Ananas</option>
+         </select>
+         <p>Ingrédient 2</p>
+         <select name="ingredient2" id="mySelect" size="4">
+            <option value="jambon">Jambon</option>
+            <option value="poulet">Poulet</option>
+            <option value="saucisson">saucisson</option>
+            <option value="ananas">Ananas</option>
+          </select>
+          <p>Ingrédient 3</p>
+          <select name="ingredient3" id="mySelect" size="4">
+            <option value="jambon">Jambon</option>
+            <option value="poulet">Poulet</option>
+            <option value="saucisson">saucisson</option>
+            <option value="ananas">Ananas</option>
+           </select>
+
+           <p>Avez vous la cart de fidélité?</p>
+           <label for="oui" value="oui">Oui</label>
+                <input name="fidelite" value="oui" type="radio">
+           <label for="non" value="non">Non</label>
+                <input  name="fidelite" type="radio">
+        <br>
+        <input id="send" type="submit"value="Envoyer la commande"></input>
+        <button type="button" > Reset</button>
+    </form>
+</body>
+</html>

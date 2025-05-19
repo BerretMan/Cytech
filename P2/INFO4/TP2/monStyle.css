@@ -1,0 +1,38 @@
+div {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+
+}
+
+li {
+    margin-left: 15px;
+    outline: solid yellow;
+    list-style-type: none;
+    display: inline-block;
+}
+
+h1 {
+    color: grey
+}
+
+p {
+    background-color: yellow;
+}
+
+p::first-letter {
+    font-size: 5em;
+}
+
+div.gauche {
+    margin-right: 50%;
+}
+
+div.droit{
+    margin-left: 50%;
+}
