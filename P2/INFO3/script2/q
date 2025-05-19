@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [[ !($# -ge 3 &&  "$#%2" -ne 0) ]]
+then
+	echo "Pas une expression valide"
+fi
