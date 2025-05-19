@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}   
+\usepackage[english,french]{babel} 
+\usepackage{lipsum}        
+\usepackage{graphicx}
+%Sommaire clickable: 
+\usepackage{color}  
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, 
+    linktoc=all,     
+    linkcolor=black,  
+    urlcolor=blue,
+}
+
+\begin{document}
+
+\title{
+\includegraphics[width=0.2\textwidth]{CYTech.jpg} \\ Rapport Projet INFO3 P2}
+\author{Serrano Lucas Zak Hill}
+\date{2024--2025}
+\maketitle
+
+\tableofcontents
+
+\chapter*{\vspace*{-2em} Introduction}
+
+\addcontentsline{toc}{chapter}{Introduction}
+Ce projet est le projet d'INFO3 de semestre 1 de PRE-ING2 de Cytech (ex EISTI) \\ \\
+Le but de ce projet est de réaliser \textbf{une calculatrice} simplifié en C dans le terminal sous Linux, supportant la notation préfixe et postfixe, permettant de réaliser addition, soustraction et multiplication sur des nombres entiers. \\ \\
+Se projet est réalisé par Serrano Lucas et Hill Zak, étudiant en PRE-ING2 à Cytech (campus de Pau) du groupe \textit{Cyapp dev}
+
+\chapter*{\vspace*{-2em} Répartition des tâches du projet}
+La répartition des tâches du projet a était fait dans l'optique de diviser le travail à réaliser de manière équitable. Voici le tableau ci-dessous détaillant le développeur responsable de chaque grosse partie du projet: \\
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Tâche} & \textbf{Développeur} \\ \hline
+Notation préfixe & Zak Hill \\ \hline
+Main & Zak Hill \\ \hline
+Mode intéractif & Zak Hill \\ \hline
+Arbre & Zak Hill \\ \hline
+HelpPage (en roff) & Serrano Lucas \\ \hline
+Notation postfixe & Serrano Lucas \\ \hline
+Liste & Serrano Lucas \\ \hline
+Rapport & Serrano Lucas \\ \hline
+\end{tabular}
+\end{center}
+
+
+\chapter*{\vspace*{-2em} Planning}
+\addcontentsline{toc}{chapter}{Planning}
+
+Voici un apercu du planning du projet 
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Semaine} & \textbf{Tâche à faire} \\ \hline
+Semaine 1 & Découverte du projet \\ \hline
+Semaine 2 & Notation préfixe / Postfixe. Page Help \\ \hline
+Semaine 3 & Vacance (trève de Noel) \\ \hline
+Semaine 4 & Vacance (trève de Noel) \\ \hline
+Semaine 5 & main et Peaufinage  du projet \\ \hline
+\end{tabular}
+\end{center}
+
+\chapter*{\vspace*{-2em} Choix de programamtion}
+\addcontentsline{toc}{chapter}{Choix de programamtion}
+
+Nous avons décider d'utiliser les symboles + - * pour représenter respectivement l'addition, la soustration et la multiplication. \\ \\
+De plus, pour l'option -h (ou -? ou --help), j'ai décidé de réaliser une page man(le manuel sous Linux) en syntaxe \href{https://fr.wikipedia.org/wiki/Roff_(langage_informatique)}{roff} (syntaxe des pages main sous UNIX) pour le coté estétique et pratique. Ce choix induit donc deux dépendances pour le projetqui sont man (pour afficher la syntaxe) et less (dépendance de man). Cependant, il est à noté que ces packages sont installés de base dans la majoritée des systèmes Linux.   
+
+\chapter*{\vspace*{-2em} Bilan personnel pour chaque membre du groupe}
+\addcontentsline{toc}{chapter}{Bilan personnel pour chaque membre du groupe}
+
+\section*{Zak Hill}
+\addcontentsline{toc}{section}{Zak Hill}
+\section*{Serrano Lucas}
+\begin{quotation}
+"Je trouve personnellement que se projet est trop dirigiste. En effet, devoir compléter des fonctions imposés avec des en-têtes déjà prédéfinis enlève une partie de réflexion sur les choix de programmation. C'est pour une de ces raisons que j'ai décidé de faire une page d'aide en roff (le nom de la syntaxe des pages main), pour retrouvé une certaine liberté créatif."
+\emph{— Serrano Lucas}
+\end{quotation}
+\addcontentsline{toc}{section}{Serrano Lucas}
+
+\end{document}

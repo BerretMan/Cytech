@@ -1,0 +1,40 @@
+.TH calculatrice  "Version 1.0" "Page de Manuel"
+.SH NOM
+.B calculatrice \- Une simple calculatrice codée en C. 
+.SH SYNOPSIS
+.B calculatrice
+[\-options] [arguments]
+.SH DESCRIPTION
+Une calculatrice simplifié codée en C. Elle supporte la notation postfixe (polonaise) et préfixe. 
+.br
+Projet d'INFO pré-ing2 (semestre1) de Cytech (ex EISTI).  
+.br
+Fait par Serrano Lucas et Hill Zak
+
+.SH OPTIONS
+Liste des options disponibles :
+.TP
+.B \-?, \-h, \-\-help
+Affiche l'aide pour utiliser le programme  
+.br
+(la page sur laquelle vous êtes actuellement) 
+.br
+Pour quitter, pressez q.
+.TP
+.B \-e
+.ul 
+EXPRESSION 
+.br
+Evalue une expression et renvoit le résultat de l'opération finale.
+.TP
+.B \-i
+.ul 
+[NOTATION]
+.br
+Lance le mode intéractif, dans la notation donnée si elle est présente.
+.TP
+
+.SH AUTEUR
+Serrano Lucas
+.br
+Zak Hill
